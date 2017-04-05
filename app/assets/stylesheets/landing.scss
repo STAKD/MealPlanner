@@ -1,0 +1,26 @@
+.landing {
+    background: #f53240;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .logo-container {
+        margin-bottom: 25px;
+        img {
+            width: 239px;
+            height: 98px;
+        }
+    }
+    .btn-container {
+        font-size: 22px;
+        font-weight: bold;
+        button {
+            width: 240px;
+            height: 50px;
+            border-radius: 8px;
+            background-color: #ffffff;
+            color: #000;
+        }
+    }
+}
